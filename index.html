@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Netflix Clone - Dark Mode</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav class="navbar">
+      <div class="logo">NETFLIX</div>
+      <div class="nav-links">
+        <a href="#">Home</a>
+        <a href="#">TV Shows</a>
+        <a href="#">Movies</a>
+        <a href="#">New & Popular</a>
+        <a href="#">My List</a>
+      </div>
+      <div class="profile" id="profile-btn">
+        <img
+          src="https://upload.wikimedia.org/wikipedia/commons/0/0b/Netflix-avatar.png"
+          alt="Profile"
+        />
+        <div class="profile-dropdown" id="profile-dropdown">
+          <a href="account.html">Account</a>
+          <a href="https://help.netflix.com/en" target="_blank" rel="noopener"
+            >Help Center</a
+          >
+          <a href="login.html">Login</a>
+          <a href="#" id="signout-link">Sign out</a>
+        </div>
+      </div>
+    </nav>
+
+    <main class="main-content">
+      <section>
+        <h2 class="section-title">Avengers</h2>
+        <div class="movies-grid" id="avengers-grid"></div>
+      </section>
+
+      <section>
+        <h2 class="section-title">Formula 1</h2>
+        <div class="movies-grid" id="f1-grid"></div>
+      </section>
+
+      <section class="subscription">
+        <h2>Subscription Details</h2>
+        <p><strong>Plan:</strong> Premium</p>
+        <p><strong>Price:</strong> ₹799 / month</p>
+        <p><strong>Screen:</strong> 4K Ultra HD available</p>
+        <p><strong>Downloads:</strong> Available</p>
+      </section>
+    </main>
+
+    <script src="script.js"></script>
+  </body>
+</html>
